@@ -1,0 +1,20 @@
+:root{
+    --cor-fundo:#01080E;
+    --cor-principal:#0B0D20;
+    --cor-secundari:#212333;
+    --cor-destaque:#fd2add;
+    --cor-texto:#D7F9FF
+}
+
+body{
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);/*cor*/
+  display:flex;/**/
+  justify-content: :center;/*controla o alinhamento;
+de todos os itens no eixo principal.*/
+  align-itens: center;/*controla o alimento de 
+todos os itens no eixo transversal*/ 
+  min-heigth: 100vh;/*define a altura mínimade um elemento*/
+/*o vh representa a porcentagem da altura*/
+}
+
